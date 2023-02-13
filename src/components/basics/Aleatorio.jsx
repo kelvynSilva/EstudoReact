@@ -1,12 +1,22 @@
 import React from "react";
 
-export default (min) => {
-    var minn = Math.ceil(min.valor1);
-    var maxx = Math.floor(min.valor2);
-    var result = Math.floor(Math.random() * (maxx - minn + 1) + minn)
+export default (props) => {
+    const { min, max } = props;
+    var result = Math.floor(Math.random() * (max - min + 1) + min);
     return (
         <div>
-            <h2>{result}</h2>
+            <h2>Valor aleatório</h2>
+
+            <p>
+                <strong>Valor Mínimo: </strong> {min}
+            </p>
+            <p>
+                <strong>Valor Máximo</strong> {max}
+            </p>
+
+            <p>
+                <strong>Valor Aleatório</strong> {result}
+            </p>
         </div>
     )
 }

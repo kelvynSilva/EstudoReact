@@ -1,19 +1,13 @@
 
 import './index.css';
 import ReactDOM from 'react-dom';
-import React from 'react';
+import React, { Children } from 'react';
 
 
-import App from './app';
-import Primerio from './components/basics/Primeiro';
-import Aleatorio from './components/basics/Aleatorio';
+
+import App from './App';
 
 ReactDOM.render(
-    <Aleatorio
-        valor1={1}
-        valor2={10}
-    />
+    <App />
     , document.getElementById('root')
 )
-
-

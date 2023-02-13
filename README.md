@@ -2,4 +2,4 @@
 
 ### Objetivo 
 ***
-* aprender sobre o funcionanmento e como utilizar o React para projetos tanto web quanto mobiles
+* aprender sobre o funcionanmento e a utilizar o React para projetos tanto web quanto mobiles

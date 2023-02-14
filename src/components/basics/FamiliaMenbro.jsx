@@ -1,5 +1,5 @@
 import React from "react";
 
 export default props => {
-    return <div>{props.name} <strong>{props.lastName}</strong></div>
+    return <div>{props.nome} <strong>{props.sobrenome}</strong></div>
 }

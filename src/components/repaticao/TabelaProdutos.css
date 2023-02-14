@@ -1,0 +1,15 @@
+.TabelaProduto table {
+    width: 100%;
+    border: none;
+}
+
+
+.TabelaProduto thead {
+    background-color: rgb(71, 122, 106);
+    color: #fff;
+    font-weight: 200;
+}
+
+.TabelaProduto .Par {
+    background-color: #ddd;
+}
